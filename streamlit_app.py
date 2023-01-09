@@ -46,5 +46,5 @@ streamlit.dataframe(my_data_rows)
 
 add_fruit_prompt = streamlit.text_input('What fruit would you like to add?')
 my_data_rows.append( (add_fruit_prompt,) )
-streamlit.text(my_data_rows)
+streamlit.dataframe(my_data_rows)
 
